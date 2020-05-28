@@ -17,7 +17,10 @@ namespace WebStore.Controllers
                 Surname = "Иванов",
                 FirstName = "Иван",
                 Patronymic = "Иванович",
-                Age = 50
+                Age = 50,
+                Office = "Street1",
+                Hobby = "Baseball",
+                Birthdate = DateTime.Today.AddYears(-50).AddDays(-45)
             },
             new Employee
             {
@@ -25,7 +28,10 @@ namespace WebStore.Controllers
                 Surname = "Петров",
                 FirstName = "Пётр",
                 Patronymic = "Петрович",
-                Age = 25
+                Age = 25,
+                Office = "Street2",
+                Hobby = "Dancing",
+                Birthdate = DateTime.Today.AddYears(-25).AddDays(56)
             },
             new Employee
             {
@@ -33,7 +39,10 @@ namespace WebStore.Controllers
                 Surname = "Сидоров",
                 FirstName = "Сидор",
                 Patronymic = "Сидорович",
-                Age = 30
+                Age = 30,
+                Office = "Street3",
+                Hobby = "Bicycle",
+                Birthdate = DateTime.Today.AddYears(-30).AddDays(12)
             },
         };
 
